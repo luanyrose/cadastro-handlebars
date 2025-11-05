@@ -1,0 +1,10 @@
+<body>
+    <h2>Editar Pessoa</h2>
+
+    <form action="/pessoas/{{pessoa.id}}/editar" method="POST">
+        <input type="text" name="nome" value="{{pessoa.nome}}" required>
+        <button type="submit">Salvar</button>
+    </form>
+
+    <a href="/pessoas">Voltar</a>
+</body>
